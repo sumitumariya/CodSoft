@@ -1,0 +1,216 @@
+*{margin: 0;
+padding: 0;}
+
+
+.first{ background-image: url('gymfront.jpg');
+    background-size: cover;width: 100%;
+    background-repeat: no-repeat;}
+.navbar {background-image: linear-gradient(to right, #3217ef, #f80093, #ff2d3a, #f8a500, #beeb5a);}
+.navbar h1{color: rgb(227, 199, 199);}
+
+.navbar{display: flex;
+align-items: center;
+padding: 20px;
+justify-content: space-evenly;}
+.navbar .ul1 {color: #ed8dda;
+
+font-size: 50px;}
+
+ span{color: #0f0e0e;}
+  
+.ul1 li {
+font-size: 30px;
+display: inline;
+padding: 0px 45px;
+
+}
+.ul1 li a{
+    color: maroon;
+    text-decoration: none;
+    
+}
+.ul1 li a:hover{
+    color: #0d0d0d;font-size: 35px;
+    text-decoration: 2px maroon underline;
+}
+.btn{
+    color: white;
+    background-color: #D16BA5;
+    font-size: 17px;
+    /* margin: 17px 10px; */
+    padding:  2px 14px;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+   
+}
+#click{
+    display: none;
+}
+
+.navbar label{
+    display: none;
+}
+#click:checked~.first .navbar ul{
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .navbar label{
+        display: block;font-size: 55px;
+    }
+
+    .navbar{
+        background-color: #6e264f;
+        height: 90px;
+        color: #40d32a;
+    }
+    .navbar h1{color: black;}
+
+    .navbar ul li{
+        display: block;
+        padding: 20px 55px;color: #232321;
+    }
+    .ul1 li a:hover{color: whitesmoke;}
+
+    .navbar ul{
+        margin-top: 590px;
+        position: absolute;
+        width: 100%;
+        background-color:black;
+        display: none;
+        padding: 20px;
+    }
+
+    .pt .pt1, .pt2, .pt3 {
+        border: 2px solid #493a46;
+        padding: 50px;
+        color: black;
+        border-radius: 60px;
+        background-color: #5dd6833e;
+        width: 800px;font-size: larger;
+        font-style: italic;
+        margin: 50px;
+        text-align: center;
+    }
+}
+
+/* ........................................................................................... */
+
+.container{flex-wrap: wrap;
+    font-size: 40px;
+    margin-top:180px ;
+    padding: 10px 30px;
+}
+h1{font-size: 70px;
+color: rgb(221, 48, 48);}
+h2{color: rgb(238, 50, 50);
+}
+.data input{font-size: 22px;
+height: 35px;
+width: 340px;border: none;
+border-radius: 4px;
+padding: 0 10px;
+border-radius: 25px;
+background-color: #ed58cf;
+}
+.data input:hover{box-shadow: 2px 10px rgba(8, 2, 2, 0.344);}
+
+.data ::placeholder{font-weight: 300;color: black;
+    font-size: 20px;
+}
+.btn1 {
+    color: white;
+    background-color: #743568;
+    font-size: 25px;font-style: italic;
+   height: 33px;width: 15vh;
+    border-radius: 20px; border: none;
+  }
+  .btn1:hover {
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+  }
+  /* ...............................................................explore........... */
+  .about{background-image: url(gym.jpg);
+    background-size: cover;width: 100%;
+    background-repeat: no-repeat;
+    color: white;}
+  .CARD{
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+}
+.about h1{text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
+color: #ed8dda;}
+
+
+
+.CARD .c1 ,.c2 ,.c3 ,.c4{color: black;
+height: 300px;
+border-bottom-right-radius: 45px;
+border-top-left-radius: 45px;
+text-align: center;margin-bottom: 20px;
+background-image: linear-gradient(to bottom, #a8e917, #cdd039, #daba5c, #d1ab7c, #b4a297);
+}
+.CARD h3{
+    font-size: 20px;font-style: italic; margin-top: 10px;
+    color: black;padding-bottom: 35px;
+}
+.btnc{margin: 60px;border: none;
+height: 25px;
+width: 200px;
+border-radius: 20px;
+background-color:rgb(104, 104, 238);
+}
+.btnc:hover{
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.join{background-image: url(gym9.jpeg);
+background-size: cover;width: 100%;
+background-repeat: no-repeat;
+align-items: center;
+display: flex;flex-wrap: wrap;
+justify-content: center;
+
+}
+
+/* ................................pt............................... */
+
+.pt{display: flex;flex-wrap: wrap;
+    
+    display: flex;
+  text-align: center;
+    justify-content: space-between;
+    color: #171514;
+}
+.pt .pt1,.pt2 ,.pt3{border:2px solid #493a46;
+padding: 50px;
+color: black;
+ border-radius: 60px;
+background-color: #5dd6833e;
+width: 200px; 
+font-style: italic;
+margin: 50px;text-align: center;
+
+}
+
+.join p {color: white;;font-size:25px;}
+.join h1{margin-left: 30%;}
+.pt .pt3:hover{
+    box-shadow: 2px 5px black;
+}
+.pt .pt1:hover{ box-shadow: 2px 5px black;}
+.pt .pt2:hover{box-shadow: 2px 5px black;}
+
+
+
